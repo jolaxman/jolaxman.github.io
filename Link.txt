@@ -1,0 +1,8 @@
+<html>
+<heading>
+<h1><div align=left> PORTFOLIO> </div> </h1>
+</heading>
+
+<body> 
+<p> this is an image again </p>
+<img src="flower-purple-lical-blosso.jpg" height =300 width=300">
