@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #9fb9c1;
+  padding: 20px;
+  text-align: left;
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #9fb9c1;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: 9fb9c1;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Lajo Lakshman</h2>
+</div>
+
+<div class="topnav">
+  <a href="#">About</a>
+  <a href="#">Profile</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+  <a href="#">Join</a>
+</div>
+<div class="row">
+  <div class="column" background-color: #e6e6e6;>
+    <h3>Quick View</h3>
+   
+    <div class="leftnav">
+ <p> <a href="#">Graphic Design</a> </p>
+  <p><a href="#">Videography</a></p>
+ <p> <a href="#">Photography</a></p>
+  <p><a href="#">Web Design</a></p>
+  <p><a href="#">Animation</a></p>
+</div>
+
+ <div class="column">
+    <h2>WORKS</h2>
+    <img src="G\Laza\COLLZLOLHAHAHA4THSEMMMMM\WDD\Untitled-1-01.jpg" alt="Work" width="600" height="400">
+    
+  </div>
+</body>
+</html>
